@@ -1,11 +1,11 @@
 #!/bin/sh
 
 # install necessary software
-sudo apt install --no-install-recommends xserver-xorg
-sudo apt install --no-install-recommends xinit
-sudo apt-get install --no-install-recommends x11-xserver-utils
-sudo apt-get install chromium-browser
-sudo apt-get install matchbox-window-manager xautomation unclutter
+sudo apt install --no-install-recommends xserver-xorg -y
+sudo apt install --no-install-recommends xinit -y
+sudo apt-get install --no-install-recommends x11-xserver-utils -y
+sudo apt-get install chromium-browser -y
+sudo apt-get install matchbox-window-manager xautomation unclutter -y
 
 sudo chmod 755 ./kiosk.sh
 
