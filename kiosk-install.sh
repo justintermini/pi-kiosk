@@ -9,4 +9,4 @@ sudo apt-get install matchbox-window-manager xautomation unclutter
 
 sudo chmod 755 ~/kiosk.sh
 
-echo 'xinit /home/pi/kiosk.sh -- vt$(fgconsole)' >> ~/.bashrc
+echo 'xinit /home/pi/pi-kiosk/kiosk.sh -- vt$(fgconsole)' >> ~/.bashrc
