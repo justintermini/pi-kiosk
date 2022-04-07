@@ -1,6 +1,8 @@
 # pi-kiosk
 Quick Bash script to turn a Raspberry Pi into a Chromium kiosk 
 
+This is specifically for a Pi with a fresh install of Raspbian Lite (no desktop)
+
 First run change permissions on the kiosk-install.sh file `sudo chmod 755 kiosk-install.sh`
 
 Then change the last line in the `kiosk.sh` file to reflect your desired URL
