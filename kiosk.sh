@@ -3,7 +3,7 @@
 xset -dpms # disable DPMS (Energy Star) features
 xset s off # disable screen saver
 xset s noblank # don't blank the video device
-matchbox-window-manager -user_titlebar no &
+matchbox-window-manager -use_titlebar no &
 unclutter & # hide X mouse cursor unless mouse activated
 chromium-browser --display=:0 --kiosk --incognito --window-position=0,0 <URL GOES HERE>
 
