@@ -1,5 +1,5 @@
 # pi-kiosk
-Quick Bash script to turn a Raspberry Pi into a Chromium kiosk 
+Quick Bash script to turn a Raspberry Pi into a Chromium kiosk on a fresh install of Raspbian Buster
 
 This is specifically for a Pi with a fresh install of Raspbian Lite (no desktop)
 
